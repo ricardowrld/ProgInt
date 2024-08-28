@@ -1,0 +1,32 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    width: 300px; 
+    height: 300px; 
+    margin: 10px; 
+    background-color: #e0e0e0; 
+    border: 1px solid #bbb; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+}
+
+.imgs img {
+    max-width: 90%; 
+    max-height: 90%; 
+    object-fit: cover; 
+}
