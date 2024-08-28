@@ -1,0 +1,35 @@
+
+
+/* Estilos para o container das três divs */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre as duas linhas de divs */
+}
+
+/* Estilos para o container das duas divs */
+.inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para as divs */
+.imgs {
+    width: 300px; /* Ajuste conforme necessário */
+    height: 300px; /* Ajuste conforme necessário */
+    margin: 10px; /* Espaçamento entre as divs */
+    background-color: #e0e0e0; /* Cor de fundo */
+    border: 1px solid #bbb; /* Borda das divs */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Tamanho da fonte para visualizar o texto */
+}
+
+.imgs img {
+    max-width: 90%; /* Ajusta a largura máxima da imagem */
+    max-height: 90%; /* Ajusta a altura máxima da imagem */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre o espaço da div */
+}
